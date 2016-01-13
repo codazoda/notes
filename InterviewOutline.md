@@ -9,13 +9,11 @@
 
 	- Summarize your work history.
 
-	- What made you decide to apply here?
-
 	- What experience have you had with scrum?
 
 - Environment
 
-	- Tell me about your preferred development environment
+	- Tell me about your preferred development environment (OS & IDE)
 
 - HTML
 
@@ -49,6 +47,12 @@
 
 	- Given an array of 5 words, sort it by longest word
 
+- Testing
+
+	- What testing frameworks have you used?
+
+	- What is the difference between a functional and a unit test?
+
 - Javascript
 
 	- What is the difference between a variable that is null or undefined?
@@ -81,12 +85,19 @@
 
 	- What is a Map Reduce?
 
+- Git
+
+   - How do you create a new git repository?
+
+   - How do you 
+
 - More General Questions
 
 	- If you could master one technology this year, what would it be?
 
-	- Do you have any hobbies or interests?
+	- What made you decide to apply here?
 
+	- Do you have any hobbies or interests?
 
 ## Non-Technical
 
