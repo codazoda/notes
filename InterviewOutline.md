@@ -53,6 +53,12 @@
 
 	- What is the difference between a functional and a unit test?
 
+- HTTP
+
+	- What is the difference between GET and POST?
+
+	- What is a cookie?
+
 - Javascript
 
 	- What is the difference between a variable that is null or undefined?
@@ -61,17 +67,13 @@
 
 	- What is the difference between == and ===?
 
-- HTTP
-
-	- What is the difference between GET and POST?
-
-	- What is a cookie?
-
 - PHP
 
 	- What is a php session and how do they differ from cookies?
 
 	- How do you sanitize user data for a call to exec?
+
+	- What is the difference between == and ===?
 
 - MySQL
 
