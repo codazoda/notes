@@ -99,6 +99,8 @@
 
 	- What made you decide to apply here?
 
+	- What do you like to read?
+
 	- Do you have any hobbies or interests?
 
 ## Non-Technical
@@ -110,3 +112,37 @@
 	- What are your hobbies?
 
 	- What experience have you had with scrum?
+
+- Scrum
+	
+	- What is the difference between Agile and Scrum?
+
+	- Is there anything you think is missing from Scrum?
+
+	- When estimating, what do points indicate?
+
+	- What challenges have you faced working with an Agile team?
+
+	- Give me an overview of a retrospective meeting.
+
+	- What does a story look like?
+
+	- How might you help a team find a strong sense of purpose?
+
+	- What types of dysfunction might you encounter on a team? (5 dysfunctions of a team)
+
+	- How would you deal with those dysfunctions?
+
+	- How would you encourage everyone to openly express their opinions?
+
+	- How might you help the team identify positive and negative changes during retrospectives?
+
+	- How would you help the team to find techniques to help them be more collaborative?
+
+	- How would you help and encourage healthy conflict during team meetings?
+
+	- Do a fake sprint planning of a snow day; clear the snow from a big box store.
+
+- More General Questions
+
+	- What do you like to read?
