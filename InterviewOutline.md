@@ -109,8 +109,6 @@
 
 	- What made you decide to apply here?
 
-	- What are your hobbies?
-
 	- What experience have you had with scrum?
 
 - Scrum
@@ -146,3 +144,5 @@
 - More General Questions
 
 	- What do you like to read?
+
+	- What are your hobbies?
