@@ -77,6 +77,8 @@
 
 - MySQL
 
+	- How comfortable are you with MySQL / SQL?
+
 	- What is the difference between MyISAM and InnoDB?
 
 	- How can you tell if a query is using an index?
