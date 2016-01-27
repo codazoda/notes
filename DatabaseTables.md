@@ -1,6 +1,6 @@
 # MySQL Tables
 
-## articles
+### articles
 
 | Field      | Type             | Null | Key | Extra          |
 |------------|------------------|------|-----|----------------|
@@ -10,7 +10,7 @@
 | text       | longtext         | NO   |     |                |
 | postDate   | timestamp        | NO   |     |                |
 
-## comments
+### comments
 
 | Field      | Type             | Null | Key | Extra          |
 |------------|------------------|------|-----|----------------|
@@ -20,7 +20,7 @@
 | text       | longtext         | NO   |     |                |
 | submitDate | timestamp        | NO   |     |                |
 
-## users
+### users
 
 | Field      | Type             | Null | Key | Extra          |
 |------------|------------------|------|-----|----------------|
