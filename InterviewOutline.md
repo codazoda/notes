@@ -81,17 +81,17 @@
 
 	- Using this [Article Tables](ArticlesTables.md) printout:
 
+		- Query for a list of users.  Return their id's and their first names.
+
 		- Write a query that returns the number of comments for article 1234.
 
 		- Write a query that returns the top 10 articles with the most comments.
 
-	- Using this printout ()
+	- Using this [PHP Sample Code](PhpSamples.md) printout:
 
 		- What is wrong with the code in sample 1?
 
 		- What is wrong with the code in sample 2?
-
-	- Query for a list of users.  Return their id's and their first names.
 
 - MongoDB
 
