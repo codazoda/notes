@@ -79,7 +79,7 @@
 
 	- What is the difference between MyISAM and InnoDB?
 
-	- Using this printout ()
+	- Using this [Article Tables](ArticlesTables.md) printout:
 
 		- Write a query that returns the number of comments for article 1234.
 
