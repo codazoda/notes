@@ -79,6 +79,8 @@
 
 	- What is the difference between MyISAM and InnoDB?
 
+	- How can you tell if a query is using an index?
+
 	- Using this [Database Tables](DatabaseTables.md) printout:
 
 		- Query for a list of users.  Return their id's and their first names.
@@ -92,6 +94,10 @@
 		- What is wrong with the code in sample 1?
 
 		- What is wrong with the code in sample 2?
+
+	- What is a trigger?
+
+	- What is a transaction?
 
 - MongoDB
 
