@@ -1,6 +1,6 @@
-# PHP Code Samples
+# Code Samples
 
-## Sample 1
+## Sample 1 (PHP)
 
     <?php
 
@@ -9,7 +9,7 @@
 
     ?>
 
-## Sample 2
+## Sample 2 (PHP)
 
     <?php
 

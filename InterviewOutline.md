@@ -79,7 +79,7 @@
 
 	- What is the difference between MyISAM and InnoDB?
 
-	- Using this [Article Tables](ArticlesTables.md) printout:
+	- Using this [Database Tables](DatabaseTables.md) printout:
 
 		- Query for a list of users.  Return their id's and their first names.
 
@@ -87,7 +87,7 @@
 
 		- Write a query that returns the top 10 articles with the most comments.
 
-	- Using this [PHP Sample Code](PhpSamples.md) printout:
+	- Using this [Code Samples](CodeSamples.md) printout:
 
 		- What is wrong with the code in sample 1?
 
