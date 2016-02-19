@@ -58,7 +58,8 @@ dpkg --get-selections | grep hold
 After that I ran `aptitude` and hit `q` just to make sure it says `No packages
 are scheduled`. If we see that message, we can proceed with the upgrade.
 
-Next, I edited the `/etc/apt/sources.list` file to contain the following lines.
+Next, I edited the `/etc/apt/sources.list` file to contain the following lines 
+(and only these lines).
 
 ```
 deb http://ftp.us.debian.org/debian/ wheezy main
