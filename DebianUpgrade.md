@@ -124,13 +124,6 @@ wheezy.
 apt-get dist-upgrade
 ```
 
-Now we run the update and upgrade again.
-
-```
-apt-get update
-apt-get upgrade
-```
-
 **Dependency Error**
 
 At this point you may get a dependency error. If so, you'll want to remove the 
@@ -142,7 +135,7 @@ down the vagrant box.
 vagrant halt
 ```
 
-Now open the `Vagrant file` and comment out the following lines.
+Now open the `Vagrantfile` and comment out the following lines.
 
 ```
 config.vm.share_folder "ksl_root", "/var/www/ksl", FILEBASEPATH + "/ksl", type: "nfs", mount_options: ['rw', 'vers=3', 'tcp', 'fsc' ,'actimeo=2']
@@ -175,7 +168,7 @@ apt-get remove nfs-common
 Do the upgrade, again.
 
 ```
-apt-get upgrade
+apt-get dist-upgrade
 ```
 
 When the upgrade is complete, install nfs-common again.
@@ -193,11 +186,16 @@ Copyright (c) 1997-2014 The PHP Group
 Zend Engine v2.4.0, Copyright (c) 1998-2014 Zend Technologies
 ```
 
+Put your `Vagrantfile` back in order by uncommenting the lines that you 
+commented before upgrading nfs-common.
+
 Reboot your vagrant box and you should be done.
 
 ```
 vagrant reload
 ```
+
+**Fix Mongo and XTree**
 
 In order to get mongo working again I had to use pecl to uninstall and then 
 reinstall the driver.
