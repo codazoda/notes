@@ -1,0 +1,235 @@
+# Debian Upgrade Notes
+
+- Debian Versions:
+    - Debian 8 "jessie"
+        - PHP 5.3.3-7
+    - Debian 7 "wheezy"
+        - PHP 5.4.45
+    - Debian 6 "squeeze"
+        - PHP 5.6.17
+
+
+Upgrade from squeeze to wheezy; including PHP.
+
+What other packages are held back besides PHP?
+
+131.146 on wheezy (vmmic?)
+
+Blue background is ready to go. Specify time when to start it.
+
+> How much time is the upgrade going to take? Touch base on Friday.
+
+> Clone nest and do the wheezy upgrade on it. How did it work?
+
+A useful list of upgrade instructions.
+https://www.howtoforge.com/how-to-upgrade-debian-squeeze-to-wheezy
+
+## My Vagrant Box
+
+This is the process I went through on my own vagrant box.
+
+First, we need to make sure everything in squeeze is up to date.
+
+```
+apt-get update
+apt-get upgrade
+apt-get dist-upgrade
+```
+
+Everything still works, as expected, after those updates. The PHP version
+is the following. I've also verified that this matches on stage.
+
+```
+PHP 5.3.3-7+squeeze19 with Suhosin-Patch (cli) (built: Feb 17 2014 10:10:23) 
+Copyright (c) 1997-2009 The PHP Group
+Zend Engine v2.3.0, Copyright (c) 1998-2010 Zend Technologies
+```
+
+At this point I checked to make sure that no packages were on hold and they 
+were not. As a side note, however, I do remember the PHP version and one other
+component being held back to a previous version somewhere somehow. I can't 
+find that as of right now.
+
+```
+dpkg --audit
+dpkg --get-selections | grep hold
+```
+
+After that I ran `aptitude` and hit `q` just to make sure it says `No packages
+are scheduled`. If we see that message, we can proceed with the upgrade.
+
+Next, I edited the `/etc/apt/sources.list` file to contain the following lines.
+
+```
+deb http://ftp.us.debian.org/debian/ wheezy main
+deb-src http://ftp.us.debian.org/debian/ wheezy main
+
+deb http://security.debian.org/ wheezy/updates main
+deb-src http://security.debian.org/ wheezy/updates main
+
+deb http://ftp.us.debian.org/debian/ wheezy-updates main
+deb-src http://ftp.us.debian.org/debian/ wheezy-updates main
+```
+
+Now we need to get apt up to date with our changes to the sources above.
+
+```
+apt-get update
+```
+
+This results in some errors that say `There is no public key available`. I ran 
+the following to install the appropriate keys and remove those errors.
+
+```
+sudo aptitude install debian-keyring debian-archive-keyring
+```
+
+All of KSL still seems to work at this point and we're ready to do the actual
+meat of the upgrade. Start with getting all the squeeze packages up to date by
+running the following command.
+
+```
+apt-get upgrade
+```
+
+As part of the upgrade I installed the package maintainer's version of 
+/etc/sudoers. This will break the admin user in Vagrant. If you are SSH'ed as 
+root at the moment you can fix it manually after the upgrade by running `visudo` 
+and adding the following line.
+
+```
+%admin ALL=NOPASSWD: ALL
+```
+
+And, finally, here's the larger command that will upgrade from squeeze to 
+wheezy.
+
+```
+apt-get dist-upgrade
+```
+
+At this point you may get a dependency error. If so, you'll want to remove 
+nfs-common and then do the upgrade.
+
+```
+apt-get remove nfs-common
+```
+
+Remove the following extra references to other squeeze packages and pinnings.
+
+```
+rm /etc/apt/preferences.d/preferences
+rm /etc/apt/sources.list.d/backports.list
+rm /etc/apt/sources.list.d/saltstack.list
+```
+
+Now we run the update and upgrade again.
+
+```
+apt-get update
+apt-get upgrade
+```
+
+At this point you may get a dependency error. If so, you'll want to remove the 
+nfs-common package and then install it again after the upgrade. When this is 
+removed you can't use the typical vagrant mounts. So, lets start by taking
+down the vagrant box.
+
+```
+vagrant halt
+```
+
+Now open the `Vagrant file` and comment out the following lines.
+
+```
+config.vm.share_folder "ksl_root", "/var/www/ksl", FILEBASEPATH + "/ksl", type: "nfs", mount_options: ['rw', 'vers=3', 'tcp', 'fsc' ,'actimeo=2']
+config.vm.share_folder "ksl_api", "/var/www/ksl-api", FILEBASEPATH + "/ksl-api", type: "nfs", mount_options: ['rw', 'vers=3', 'tcp', 'fsc' ,'actimeo=2']
+config.vm.share_folder "ksl_global", "/var/www/ksl-global", FILEBASEPATH + "/ksl-global", type: "nfs", mount_options: ['rw', 'vers=3', 'tcp', 'fsc' ,'actimeo=2']
+config.vm.share_folder "ksl_header", "/var/www/ksl-header", FILEBASEPATH + "/ksl-header", type: "nfs", mount_options: ['rw', 'vers=3', 'tcp', 'fsc' ,'actimeo=2']
+config.vm.share_folder "dado", "/var/www/dado", FILEBASEPATH + "/dado", type: "nfs", mount_options: ['rw', 'vers=3', 'tcp', 'fsc' ,'actimeo=2']
+config.vm.share_folder "simp", "/var/www/simp", FILEBASEPATH + "/simp", type: "nfs", mount_options: ['rw', 'vers=3', 'tcp', 'fsc' ,'actimeo=2']
+config.vm.share_folder "xtree", "/var/www/xtree", FILEBASEPATH + "/xtree", type: "nfs", mount_options: ['rw', 'vers=3', 'tcp', 'fsc' ,'actimeo=2']
+config.vm.share_folder "ddm_framework", "/var/www/framework", FILEBASEPATH + "/framework", type: "nfs", mount_options: ['rw', 'vers=3', 'tcp', 'fsc' ,'actimeo=2']
+config.vm.share_folder "its", "/var/www/its", FILEBASEPATH + "/its", type: "nfs", mount_options: ['rw', 'vers=3', 'tcp', 'fsc' ,'actimeo=2']
+config.vm.share_folder "m_ksl_cars", "/var/www/m-ksl-cars", FILEBASEPATH + "/m-ksl-cars", type: "nfs", mount_options: ['rw', 'vers=3', 'tcp', 'fsc' ,'actimeo=2']
+config.vm.share_folder "m_ksl_homes", "/var/www/m-ksl-homes", FILEBASEPATH + "/m-ksl-homes", type: "nfs", mount_options: ['rw', 'vers=3', 'tcp', 'fsc' ,'actimeo=2']
+config.vm.share_folder "m_ksl_jobs", "/var/www/m-ksl-jobs", FILEBASEPATH + "/m-ksl-jobs", type: "nfs", mount_options: ['rw', 'vers=3', 'tcp', 'fsc' ,'actimeo=2']
+config.vm.share_folder "nest", "/var/www/nest", FILEBASEPATH + "/nest", type: "nfs", mount_options: ['rw', 'vers=3', 'tcp', 'fsc' ,'actimeo=2']
+```
+
+Fire vagrant up again.
+
+```
+vagrant up
+```
+
+Remove the nfs-common package.
+
+```
+apt-get remove nfs-common
+```
+
+Do the upgrade, again.
+
+```
+apt-get upgrade
+```
+
+When the upgrade is complete, install nfs-common again.
+
+```
+apt-get install nfs-common
+```
+
+After this, I confirmed the PHP version matches the one I expect for wheezy by 
+running `php --version` again.
+
+```
+PHP 5.4.45-0+deb7u2 (cli) (built: Oct 17 2015 08:26:31) 
+Copyright (c) 1997-2014 The PHP Group
+Zend Engine v2.4.0, Copyright (c) 1998-2014 Zend Technologies
+```
+
+Reboot your vagrant box and you should be done.
+
+```
+vagrant reload
+```
+
+In order to get mongo working again I had to use pecl to uninstall and then 
+reinstall the driver.
+
+```
+pecl uninstall mongo
+pecl install mongo
+```
+
+Next, xtree is broken. You'll probably want to clone it so you have access
+to it on the vagrant box. You'll need the `php5.4` branch. Then the basic 
+procedure for compiling it is:
+
+```
+cd xtree
+phpize
+./configure
+make -j 4
+make install
+service apache2 restart
+```
+
+## Warnings on Live
+
+The following warnings come out on vmmic04.ksl.com when running the command 
+`php --version`. These are part of the problem that we need to fix.
+
+```
+PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+PHP Warning:  PHP Startup: apc.shm_size now uses M/G suffixes, please update your ini files in Unknown on line 0
+
+Deprecated: Directive 'register_globals' is deprecated in PHP 5.3 and greater in Unknown on line 0
+
+Deprecated: Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater in Unknown on line 0
+```
+
+## Nest Code Fixes
+
