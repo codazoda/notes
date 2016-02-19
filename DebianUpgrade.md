@@ -278,10 +278,6 @@ I've fixed the bug in my pass-by-reference-fixes branch.
 
 The counts are missing from many categories of the general classifieds.
 
-**Other Thoughts**
-
-At first glance, there seem to be a lot less issues than I expected throughout 
-the general classifieds.
 
 ## m-ksl-jobs
 
