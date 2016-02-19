@@ -28,6 +28,8 @@ https://www.howtoforge.com/how-to-upgrade-debian-squeeze-to-wheezy
 
 This is the process I went through on my own vagrant box.
 
+**Get Squeeze up to Date**
+
 First, we need to make sure everything in squeeze is up to date.
 
 ```
@@ -45,6 +47,8 @@ Copyright (c) 1997-2009 The PHP Group
 Zend Engine v2.3.0, Copyright (c) 1998-2010 Zend Technologies
 ```
 
+**Verify Packages Are Not on Hold**
+
 At this point I checked to make sure that no packages were on hold and they 
 were not. As a side note, however, I do remember the PHP version and one other
 component being held back to a previous version somewhere somehow. I can't 
@@ -57,6 +61,8 @@ dpkg --get-selections | grep hold
 
 After that I ran `aptitude` and hit `q` just to make sure it says `No packages
 are scheduled`. If we see that message, we can proceed with the upgrade.
+
+**Upgrade to Wheezy**
 
 Next, I edited the `/etc/apt/sources.list` file to contain the following lines 
 (and only these lines).
@@ -95,8 +101,8 @@ rm /etc/apt/sources.list.d/saltstack.list
 ```
 
 All of KSL still seems to work at this point and we're ready to do the actual
-meat of the upgrade. Start with getting all the squeeze packages up to date by
-running the following command.
+meat of the upgrade. Start with getting all the squeeze packages up to date 
+(again) by running the following command.
 
 ```
 apt-get upgrade
@@ -124,6 +130,8 @@ Now we run the update and upgrade again.
 apt-get update
 apt-get upgrade
 ```
+
+**Dependency Error**
 
 At this point you may get a dependency error. If so, you'll want to remove the 
 nfs-common package and then install it again after the upgrade. When this is 
