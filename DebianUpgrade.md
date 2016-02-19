@@ -276,8 +276,9 @@ I've fixed the bug in my pass-by-reference-fixes branch.
 
 **Missing Classifieds Counts**
 
-The counts are missing from many categories of the general classifieds.
-
+The counts were missing from many categories of the general classifieds but 
+this bug miraculously went away while I was looking at error logs and such but
+before I made any actual changes.
 
 ## m-ksl-jobs
 
