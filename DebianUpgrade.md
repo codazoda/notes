@@ -260,13 +260,22 @@ them by adding `~E_NOTICE` to the php.ini on the `error_reporting` line.
 
 **Call-time pass-by-reference has been removed**
 
-This error appears in the listing page for general.
+This error appears in the listing page for general. 
 
 ```
 Fatal error: Call-time pass-by-reference has been removed in 
 /var/www/ksl/logic/classifieds/featured_filler.php on line 183
 ```
+I've fixed the bug in my pass-by-reference-fixes branch.
 
+**Missing Classifieds Counts**
+
+The counts are missing from many categories of the general classifieds.
+
+**Other Thoughts**
+
+At first glance, there seem to be a lot less issues than I expected throughout 
+the general classifieds.
 
 ## m-ksl-jobs
 
@@ -276,6 +285,7 @@ fix it in your environment if necessary. Without this symlink you'll get a
 *forbidden* error when you visit ksl.com/jobs.
 
 ```
+cd /export/marketplace/
 ln -s /var/www/m-ksl-jobs/
 ```
 
