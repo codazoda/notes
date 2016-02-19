@@ -118,13 +118,6 @@ wheezy.
 apt-get dist-upgrade
 ```
 
-At this point you may get a dependency error. If so, you'll want to remove 
-nfs-common and then do the upgrade.
-
-```
-apt-get remove nfs-common
-```
-
 Now we run the update and upgrade again.
 
 ```
