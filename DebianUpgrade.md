@@ -85,6 +85,15 @@ the following to install the appropriate keys and remove those errors.
 sudo aptitude install debian-keyring debian-archive-keyring
 ```
 
+Remove the following extra references to other squeeze packages and pinnings. 
+These are the ones I mentioned previously that I could not find at the time.
+
+```
+rm /etc/apt/preferences.d/preferences
+rm /etc/apt/sources.list.d/backports.list
+rm /etc/apt/sources.list.d/saltstack.list
+```
+
 All of KSL still seems to work at this point and we're ready to do the actual
 meat of the upgrade. Start with getting all the squeeze packages up to date by
 running the following command.
@@ -114,14 +123,6 @@ nfs-common and then do the upgrade.
 
 ```
 apt-get remove nfs-common
-```
-
-Remove the following extra references to other squeeze packages and pinnings.
-
-```
-rm /etc/apt/preferences.d/preferences
-rm /etc/apt/sources.list.d/backports.list
-rm /etc/apt/sources.list.d/saltstack.list
 ```
 
 Now we run the update and upgrade again.
