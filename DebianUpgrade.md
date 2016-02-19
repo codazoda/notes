@@ -255,8 +255,14 @@ This seems to mostly work but I've only just browsed a couple pages.
 
 ## ksl
 
-There are a lot of warnings on general classifieds. As such, I had to disable 
-them by adding `~E_NOTICE` to the php.ini on the `error_reporting` line.
+**Code Notices and Warnings**
+
+There are a lot of notices and warnings on general classifieds. As such, I had 
+to disable them by adding `~E_NOTICE` and `~E_WARNING` to the php.ini on the 
+`error_reporting` line.
+
+We might want to fix some of these depending on what the production servers 
+record in their log files.
 
 **Call-time pass-by-reference has been removed**
 
