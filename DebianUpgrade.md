@@ -252,6 +252,33 @@ Restart apache with `apachectl restart` and xtree should be loaded.
 This seems to mostly work but I've only just browsed a couple pages.
 
 
+## ksl
+
+There are a lot of warnings on general classifieds. As such, I had to disable 
+them by adding `~E_NOTICE` to the php.ini on the `error_reporting` line.
+
+**Call-time pass-by-reference has been removed**
+
+This error appears in the listing page for general.
+
+```
+Fatal error: Call-time pass-by-reference has been removed in 
+/var/www/ksl/logic/classifieds/featured_filler.php on line 183
+```
+
+
+## m-ksl-jobs
+
+Jobs needs a symlink fixed (this is not specific to the upgrade). Hoopes 
+mentioned that he would fix this but you can run the following command to 
+fix it in your environment if necessary. Without this symlink you'll get a 
+*forbidden* error when you visit ksl.com/jobs.
+
+```
+ln -s /var/www/m-ksl-jobs/
+```
+
+
 ## Warnings on Live
 
 The following warnings come out on vmmic04.ksl.com when running the command 
