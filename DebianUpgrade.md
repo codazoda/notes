@@ -24,7 +24,7 @@ Blue background is ready to go. Specify time when to start it.
 A useful list of upgrade instructions.
 https://www.howtoforge.com/how-to-upgrade-debian-squeeze-to-wheezy
 
-## My Vagrant Box
+## Upgrading my Vagrant Box
 
 This is the process I went through on my own vagrant box.
 
@@ -216,6 +216,41 @@ make -j 4
 make install
 service apache2 restart
 ```
+
+
+## Nest Server
+
+The nest server probably doesn't have a lot of changes to be made. The first 
+one, however, is xtree. Do the following to get the new version of xtree 
+installed on nest.
+
+```
+phpize                      # PHP utility that will generate configure script
+./configure --enable-xtree  # Creates make files
+make                        # Compile
+sudo make install
+```
+
+For me, this results in an xtree.so file in the `/usr/lib/php5/20100525/`
+directory. Next, edit the `php.ini` file.
+
+```
+vi /etc/php5/apache2/php.ini
+```
+
+Add the following line.
+
+```
+extension=xtree.so
+```
+
+Restart apache with `apachectl restart` and xtree should be loaded.
+
+
+## m-ksl-cars
+
+This seems to mostly work but I've only just browsed a couple pages.
+
 
 ## Warnings on Live
 
