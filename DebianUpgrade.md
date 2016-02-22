@@ -2,11 +2,11 @@
 
 - Debian Versions:
     - Debian 8 "jessie"
-        - PHP 5.3.3-7
+        - PHP 5.6.17
     - Debian 7 "wheezy"
         - PHP 5.4.45
     - Debian 6 "squeeze"
-        - PHP 5.6.17
+        - PHP 5.3.3-7
 
 
 Upgrade from squeeze to wheezy; including PHP.
@@ -258,7 +258,7 @@ This seems to mostly work but I've only just browsed a couple pages.
 **Code Notices and Warnings**
 
 There are a lot of notices and warnings on general classifieds. As such, I had 
-to disable them by adding `~E_NOTICE` and `~E_WARNING` to the php.ini on the 
+to disable them by adding `~E_NOTICE` and `~E_WARNING` and `~E_STRICT` to the php.ini on the 
 `error_reporting` line.
 
 We might want to fix some of these depending on what the production servers 
@@ -306,6 +306,3 @@ Deprecated: Directive 'register_globals' is deprecated in PHP 5.3 and greater in
 
 Deprecated: Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater in Unknown on line 0
 ```
-
-## Nest Code Fixes
-
