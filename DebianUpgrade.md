@@ -292,6 +292,24 @@ cd /export/marketplace/
 ln -s /var/www/m-ksl-jobs/
 ```
 
+## Fixes on Live
+
+### Memcache
+
+Memcache was disabled after the upgrade. To enable it add the following lines to the php.ini file.
+
+```
+; uncomment the next line to enable the module
+extension=memcache.so
+
+[memcache]
+memcache.dbpath="/var/lib/memcache"
+memcache.maxreclevel=0
+memcache.maxfiles=0
+memcache.archivememlim=0
+memcache.maxfilesize=0
+memcache.maxratio=0
+```
 
 ## Warnings on Live
 
