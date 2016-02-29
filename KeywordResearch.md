@@ -9,6 +9,11 @@ This is a small set of rules I've created for doing keyword research when decidi
 - "Low" competition
 - Small articles are okay
 
+## Resources
+
+- Google Analytics
+- Google Keyword Tool
+
 
 ## Existing Pages
 
