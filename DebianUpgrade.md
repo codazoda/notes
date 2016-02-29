@@ -311,6 +311,19 @@ memcache.maxfilesize=0
 memcache.maxratio=0
 ```
 
+### Live Sync
+
+On stage.
+
+/usr/local/ddm-cluster
+
+Sync to an individual server.
+
+`./sync vmmic24.ksl.com`
+
+Version in the xml files specifies which version of configs go where.
+
+
 ## Warnings on Live
 
 The following warnings come out on vmmic04.ksl.com when running the command 
