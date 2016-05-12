@@ -24,3 +24,11 @@ Build everything
 Build one platform
 
 `cordova build android`
+
+Emulate the app
+
+`cordova emulate android`
+
+Build for the play store
+
+`cordova build android --release -- --keystore="<key-file>" --storePassword=<password> --alias=<alias>`
