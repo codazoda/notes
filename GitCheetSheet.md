@@ -12,3 +12,26 @@ Pull a remote branch.
 
     git fetch origin
     git checkout feature_branch_name
+
+## Github Pages
+
+Create an orphan gh-pages branch.
+
+    git checkout --orphan gh-pages
+
+Delete all the files from this branch.
+
+    git rm -rf .
+
+Delete left over directories if there are any (Mac).
+
+    rm -r *
+
+Create the index page.
+
+    echo example.com > index.html
+
+Add the file and commit.
+
+    git add .
+    git commit -m 'initial page commit'
