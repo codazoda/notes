@@ -13,6 +13,10 @@ Pull a remote branch.
     git fetch origin
     git checkout feature_branch_name
 
+Always push default current `git push -u`.
+
+    git config --global push.default current
+
 ## Github Pages
 
 Create an orphan gh-pages branch.
