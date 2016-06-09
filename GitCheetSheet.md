@@ -17,6 +17,10 @@ Always push default current `git push -u`.
 
     git config --global push.default current
 
+Undo a git commit that hasn't been pushed yet.
+
+    git reset --soft HEAD~
+
 ## Github Pages
 
 Create an orphan gh-pages branch.
