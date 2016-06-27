@@ -47,3 +47,7 @@ Add the file and commit.
 
     git add .
     git commit -m 'initial page commit'
+
+Putting gh-pages in a folder.
+
+https://gist.github.com/chrisjacob/833223
