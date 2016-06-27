@@ -31,6 +31,10 @@ Delete all the files from this branch.
 
     git rm -rf .
 
+Clean left over directories.
+
+  git clean -fd
+
 Delete left over directories if there are any (Mac).
 
     rm -r *
