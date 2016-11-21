@@ -21,6 +21,10 @@ Undo a git commit that hasn't been pushed yet.
 
     git reset --soft HEAD~
 
+Files changed between two branches.
+
+    git diff --name-status master..some_branch
+
 ## Github Pages
 
 Create an orphan gh-pages branch.
