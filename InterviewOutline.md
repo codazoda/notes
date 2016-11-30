@@ -165,4 +165,40 @@
 
 	- What do you like to read?
 
-	- What are your hobbies?
+	- What are your hobbies, outside of work?
+
+## Personality
+
+	- Do you have any questions for me?
+
+	- What are you passionate about in your personal life?
+
+	- What are your hobbies, outside of work?
+
+	- What are you passionate about in your professional life?
+
+	- What was the last movie you watched?
+
+	- What do you read on a weekly basis?
+
+	- What books have you read lately?
+
+	- Have you ever played on a sports team?
+
+	- How would one of your peers describe you?
+
+	- How would your previous manager describe you in three words?
+
+	- Who has had the most influence on your life?
+
+	- What is your preferred professional communication style?
+
+	- If you had unlimited resources and could do anything what would it be?
+
+	- Is there someone you look up to?
+
+## Silly Questions / Frustration Tests
+
+	- How many cars are there in the United States?
+
+	- Using the properties of stars, explain why barns are red
