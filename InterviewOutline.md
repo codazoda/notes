@@ -169,19 +169,25 @@
 
 ## Personality
 
+- Openers
+
+	- Our team...
+
 	- Do you have any questions for me?
 
-	- What are you passionate about in your personal life?
-
-	- What are your hobbies, outside of work?
-
-	- What are you passionate about in your professional life?
+- General
 
 	- What was the last movie you watched?
 
 	- What do you read on a weekly basis?
 
 	- What books have you read lately?
+
+	- What are you passionate about in your personal life?
+
+	- What are your hobbies, outside of work?
+
+	- What are you passionate about in your professional life?
 
 	- Have you ever played on a sports team?
 
@@ -194,8 +200,6 @@
 	- What is your preferred professional communication style?
 
 	- If you had unlimited resources and could do anything what would it be?
-
-	- Is there someone you look up to?
 
 ## Silly Questions / Frustration Tests
 
