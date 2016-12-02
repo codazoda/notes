@@ -120,6 +120,8 @@
 
 	- What do you like to read?
 
+	- What is one of your biggest frustrations?
+
 	- Do you have any hobbies or interests?
 
 ## Scrum
@@ -203,3 +205,7 @@
 	- How many cars are there in the United States?
 
 	- Using the properties of stars, explain why barns are red
+
+- More General Questions
+
+	- What is one of your biggest frustrations?
