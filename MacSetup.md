@@ -5,3 +5,4 @@
 - Download and install Sublime Text 3.
 - Visit gp.deseretdigital.com, login, and download and install Global Protect for Mac.
 - Global Protect settings?
+- Install SafeInCloud for password management. Put GP settings here; if I don't have them.
