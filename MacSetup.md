@@ -1,5 +1,6 @@
 - Settings, Mouse, Scroll Direction != Natural.
 - Settings, Keyboard, Repeat Speed = Fast, Repeat Delay = Short.
+- Settings, Trackpad, check Tap to Click.
 - Download and install Google Chrome.
 - Download and install Sublime Text 3.
 - Visit gp.deseretdigital.com, login, and download and install Global Protect for Mac.
