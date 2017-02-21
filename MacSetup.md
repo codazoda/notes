@@ -1,9 +1,11 @@
 - Settings, Mouse, Scroll Direction != Natural.
 - Settings, Keyboard, Repeat Speed = Fast, Repeat Delay = Short.
 - Settings, Trackpad, check Tap to Click.
+- Settings, Accessability, Mouse & Trackpad, Trackpad Options, Enable Dragging = Without drag lock.
 - Download and install Google Chrome.
 - Download and install Sublime Text 3.
 - Visit gp.deseretdigital.com, login, and download and install Global Protect for Mac.
 - Global Protect settings? Portal: gp.deseretdigital.com
 - Install SafeInCloud for password management. Put GP settings here; if I don't have them.
 - Restore SafeInCloud from DropBox.
+- Download the KSL Checklist app from the ksl-vagrant project on GitHub.
