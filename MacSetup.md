@@ -1,3 +1,4 @@
-Download and install Google Chrome.
-Download and install Sublime Text 3.
-Reverse scrolling in Settings.
+- Settings, Mouse, Scroll Direction != Natural.
+- Settings, Keyboard, Repeat Speed = Fast, Repeat Delay = Short.
+- Download and install Google Chrome.
+- Download and install Sublime Text 3.
