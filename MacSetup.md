@@ -2,6 +2,7 @@ First Things First
 
 - Install Command Line Developer Tools. *Run `git` in terminal and it will prompt*.
 - Install your git keys. [More Info](https://github.com/deseretdigital/ksl-vagrant/wiki/Setting-up-the-KSL-Vagrant-development-Environment#create-an-ssh-key)
+- Create a sandbox folder such as `~/Sandbox` and switch to that directory.
 - Clone the m-ksl-setup repo. [Link](https://github.com/deseretdigital/m-ksl-setup)
 
 Custom Settings
