@@ -22,6 +22,7 @@ Apps In Checklist
 
 - VirtualBox. [Download](https://www.virtualbox.org/wiki/Downloads)
 - Vagrant. [Download](https://www.vagrantup.com/downloads.html)
-- VB Guest Editions. *I think this works automatically upon `vagrant up`.*
+- Install VB Guest Editions by running `vagrant plugin install vagrant-vbguest`.
+- Install the box by running `cd /tmp; curl -O http://tools.bonnint.net/vagrant-debian-wheezy-64.box; vagrant box add vagrant-debian-wheezy-64`. *BIG*
 
-- Install DropBox and Sync the Joel folder. [Download](https://www.dropbox.com/install)
+- Install DropBox and Sync the Joel folder. *BIG* [Download](https://www.dropbox.com/install)
