@@ -8,6 +8,7 @@ Custom Settings
 - Settings, Keyboard, Repeat Speed = Fast, Repeat Delay = Short.
 - Settings, Trackpad, check Tap to Click.
 - Settings, Accessability, Mouse & Trackpad, Trackpad Options, Enable Dragging = Without drag lock.
+- Settings, Dock, Minimize windows into application icon.
 
 Prefered Software
 
