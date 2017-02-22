@@ -1,3 +1,8 @@
+First Things First
+
+- Install Command Line Developer Tools. *Run `git` in terminal and it will prompt*.
+- Install your git keys. [More Info](https://github.com/deseretdigital/ksl-vagrant/wiki/Setting-up-the-KSL-Vagrant-development-Environment#create-an-ssh-key)
+
 Custom Settings
 
 - Settings, Mouse, Scroll Direction != Natural.
@@ -22,7 +27,6 @@ Prefered Software
 
 KSL Requirements
 
-- Install Command Line Developer Tools. *Run git and it will prompt*.
 - Download the KSL Checklist app from the ksl-vagrant project on GitHub. [Link](https://github.com/deseretdigital/ksl-vagrant)
 - Download cloneKSLRepos.sh from ksl-vagrant project, edit it, and execute it.
 - Install XCode from the Mac App Store. *Big*
