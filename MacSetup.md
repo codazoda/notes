@@ -10,6 +10,11 @@ Custom Settings
 - Settings, Accessability, Mouse & Trackpad, Trackpad Options, Enable Dragging = Without drag lock.
 - Settings, Dock, Minimize windows into application icon.
 
+Custom Alias'
+
+- `subl`
+- `chrome`
+
 Prefered Software
 
 - Download and install Google Chrome. [Download](https://www.google.com/chrome/browser/desktop/index.html)
