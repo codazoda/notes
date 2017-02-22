@@ -17,6 +17,7 @@ Prefered Software
 KSL Stuff
 
 - Download the KSL Checklist app from the ksl-vagrant project on GitHub. [Link](https://github.com/deseretdigital/ksl-vagrant)
+- Download cloneKSLRepos.sh from ksl-vagrant project, edit it, and execute it.
 
 Apps In Checklist
 
