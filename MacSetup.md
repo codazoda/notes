@@ -19,7 +19,7 @@ Prefered Software
 
 - Download and install Google Chrome. [Download](https://www.google.com/chrome/browser/desktop/index.html)
 - Download and install Sublime Text 3. [Download](https://www.sublimetext.com/3)
-- Install SafeInCloud for password management. Put GP settings here; if I don't have them.
+- Install SafeInCloud for password management.
 - Restore SafeInCloud from DropBox.
 - Visit gp.deseretdigital.com, login, and download and install Global Protect for Mac (creds in SafeInCloud).
 - Install WunderList from the Mac App Store. [Store](https://itunes.apple.com/app/wunderlist-to-do-list-tasks/id410628904#)
