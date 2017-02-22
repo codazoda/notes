@@ -14,8 +14,10 @@ Prefered Software
 - Visit gp.deseretdigital.com, login, and download and install Global Protect for Mac (creds in SafeInCloud).
 - Install WunderList from the Mac App Store. [Store](https://itunes.apple.com/app/wunderlist-to-do-list-tasks/id410628904#)
 
-KSL Stuff
+KSL Requirements
 
+- Install Command Line Developer Tools. *Run git and it will prompt*.
+- Install XCode
 - Download the KSL Checklist app from the ksl-vagrant project on GitHub. [Link](https://github.com/deseretdigital/ksl-vagrant)
 - Download cloneKSLRepos.sh from ksl-vagrant project, edit it, and execute it.
 
@@ -24,6 +26,6 @@ Apps In Checklist
 - VirtualBox. [Download](https://www.virtualbox.org/wiki/Downloads)
 - Vagrant. [Download](https://www.vagrantup.com/downloads.html)
 - Install VB Guest Editions by running `vagrant plugin install vagrant-vbguest`.
-- Install the box by running `cd /tmp; curl -O http://tools.bonnint.net/vagrant-debian-wheezy-64.box; vagrant box add vagrant-debian-wheezy-64`. *BIG*
+- Install the box by running `cd /tmp; curl -O http://tools.bonnint.net/vagrant-debian-wheezy-64.box; vagrant box add vagrant-debian-wheezy-64`. *BIG* Fails if computer sleeps.
 
 - Install DropBox and Sync the Joel folder. *BIG* [Download](https://www.dropbox.com/install)
