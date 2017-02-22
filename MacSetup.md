@@ -39,7 +39,7 @@ Apps In Checklist
 - VirtualBox. [Download](https://www.virtualbox.org/wiki/Downloads)
 - Vagrant. [Download](https://www.vagrantup.com/downloads.html)
 - Install VB Guest Editions by running `vagrant plugin install vagrant-vbguest`.
-- Install the box by running `cd /tmp; curl -O http://tools.bonnint.net/vagrant-debian-wheezy-64.box; vagrant box add vagrant-debian-wheezy-64`. *Big* Fails if computer sleeps.
+- Install the box by running `vagrant box add vagrant-debian-wheezy-64 http://tools.bonnint.net/vagrant-debian-wheezy-64.box`. *Big* Fails if computer sleeps.
 
 More Software
 
