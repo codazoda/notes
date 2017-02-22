@@ -4,6 +4,7 @@ First Things First
 - Install your git keys. [More Info](https://github.com/deseretdigital/ksl-vagrant/wiki/Setting-up-the-KSL-Vagrant-development-Environment#create-an-ssh-key)
 - Create a sandbox folder such as `~/Sandbox` and switch to that directory.
 - Clone the m-ksl-setup repo. [Link](https://github.com/deseretdigital/m-ksl-setup)
+- Execute `./m-ksl-setup/cloneKSLRepos.sh` to clone the main repos.
 
 Custom Settings
 
