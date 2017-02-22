@@ -1,3 +1,7 @@
+Caffeinate
+
+- It's useful to run `caffeinate` from a command line to prevent sleeping.
+
 Custom Settings
 
 - Settings, Mouse, Scroll Direction != Natural.
