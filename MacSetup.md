@@ -38,4 +38,6 @@ Apps In Checklist
 - Install VB Guest Editions by running `vagrant plugin install vagrant-vbguest`.
 - Install the box by running `cd /tmp; curl -O http://tools.bonnint.net/vagrant-debian-wheezy-64.box; vagrant box add vagrant-debian-wheezy-64`. *Big* Fails if computer sleeps.
 
+More Software
+
 - Install DropBox and Sync the Joel folder. *Big* [Download](https://www.dropbox.com/install)
