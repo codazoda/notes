@@ -22,15 +22,15 @@ Prefered Software
 KSL Requirements
 
 - Install Command Line Developer Tools. *Run git and it will prompt*.
-- Install XCode
 - Download the KSL Checklist app from the ksl-vagrant project on GitHub. [Link](https://github.com/deseretdigital/ksl-vagrant)
 - Download cloneKSLRepos.sh from ksl-vagrant project, edit it, and execute it.
+- Install XCode from the Mac App Store. *Big*
 
 Apps In Checklist
 
 - VirtualBox. [Download](https://www.virtualbox.org/wiki/Downloads)
 - Vagrant. [Download](https://www.vagrantup.com/downloads.html)
 - Install VB Guest Editions by running `vagrant plugin install vagrant-vbguest`.
-- Install the box by running `cd /tmp; curl -O http://tools.bonnint.net/vagrant-debian-wheezy-64.box; vagrant box add vagrant-debian-wheezy-64`. *BIG* Fails if computer sleeps.
+- Install the box by running `cd /tmp; curl -O http://tools.bonnint.net/vagrant-debian-wheezy-64.box; vagrant box add vagrant-debian-wheezy-64`. *Big* Fails if computer sleeps.
 
-- Install DropBox and Sync the Joel folder. *BIG* [Download](https://www.dropbox.com/install)
+- Install DropBox and Sync the Joel folder. *Big* [Download](https://www.dropbox.com/install)
