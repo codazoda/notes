@@ -30,7 +30,7 @@ Prefered Software
 
 KSL Requirements
 
-- Download the KSL Checklist app from the ksl-vagrant project on GitHub. [Link](https://github.com/deseretdigital/ksl-vagrant)
+- Download and run the KSL Checklist app. [Link](https://github.com/deseretdigital/ksl-vagrant)
 - Download cloneKSLRepos.sh from ksl-vagrant project, edit it, and execute it.
 - Install XCode from the Mac App Store. *Big*
 
