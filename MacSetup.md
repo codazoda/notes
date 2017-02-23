@@ -27,6 +27,7 @@ Prefered Software
 - Restore SafeInCloud from DropBox.
 - Visit gp.deseretdigital.com, login, and download and install Global Protect for Mac (creds in SafeInCloud).
 - Install WunderList from the Mac App Store. [Store](https://itunes.apple.com/app/wunderlist-to-do-list-tasks/id410628904#)
+- Install HomeBrew. [Link](https://brew.sh/)
 
 KSL Requirements
 
