@@ -17,8 +17,7 @@ Custom Settings
 
 Custom Alias'
 
-- `subl`
-- `chrome`
+- Symlink `~/Dropbox/Joel/Mac/.bash_profile` to `~/.bash_profile`
 
 Prefered Software
 
