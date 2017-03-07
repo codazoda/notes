@@ -10,6 +10,18 @@
 
 	- What experience have you had with scrum?
 
+- Problems
+
+    - Random item
+
+    	- You’ve got a list of items.
+        
+        - Write some code to se­lect one at ran­dom.
+        
+        - Any lan­guage, don’t wor­ry about syn­tax.
+        
+        - As­sume the built-in ran­dom func­tion is good enough.
+
 - Environment
 
 	- Tell me about your preferred development environment (OS & IDE)
