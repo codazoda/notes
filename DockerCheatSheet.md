@@ -21,3 +21,9 @@ Start the container if it's not already started.
 Then attach to it.
 
 `docker attach [name]`
+
+## Mount a Host Directory to a Container Directory
+
+`docker run -v /host/directory:/container/directory`
+
+`docker run -v ~/Sandbox/:/var/www/ [name]`
