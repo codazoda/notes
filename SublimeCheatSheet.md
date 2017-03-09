@@ -8,3 +8,4 @@
 | tab             | Expand a snippet                          |
 | ctrl+shift+down | Multiple cursor on next line down         |
 | ctrl+shift+up   | Multiple cursor on next line up           |
+| command+shift+p | Open the Command Palette                  |
