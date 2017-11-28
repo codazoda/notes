@@ -20,3 +20,14 @@ Open extensions.
 
     shift + command + x
 
+Jump to symbol in current file (with PHP Intelephense extension installed).
+
+    shift + command + o
+
+Jump to symbol in whole workspace (with PHP Intelephense extension installed).
+
+    command + t
+
+Search for menu options.
+
+    command + p then >
