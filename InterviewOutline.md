@@ -174,6 +174,16 @@
 
 	- What made you decide to apply here?
 
+	- What do you know about this position?
+
+- Work Preferences
+
+	- What is your preferred professional communication style?
+
+	- Tell me about your preferred work computer?
+
+	- Describe your ideal working space.
+
 - Work / Life Balance
 
 	- What was the last movie you watched?
@@ -194,23 +204,9 @@
 
 - Personality / View of Self
 
-	- How would one of your peers describe you?
-
-	- How would your previous manager describe you in three words?
-
-	- Who has had the most influence on your life?
-
 	- If you had unlimited resources and could do anything what would it be?
 
 	- When I Google you, what will I find?
-
-- Work Preferences
-
-	- What is your preferred professional communication style?
-
-	- Tell me about your preferred work computer?
-
-	- Describe your ideal working space.
 
 - Silly Questions / Frustration Tests
 
