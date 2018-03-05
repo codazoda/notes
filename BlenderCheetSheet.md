@@ -16,4 +16,4 @@
 
 - A - Select All (Not Command-A)
 - B - Box Select
-
+- C - Circle Select
