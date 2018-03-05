@@ -25,5 +25,11 @@
 - Right Click - Cancel
 
 - G - Grab
+  - X - X Axis
+  - Y - Y Axis
+  - Z - Z Axis
 - R - Rotate
 - S - Scale
+- Alt+S - Undo Scale
+- Alt+R - Undo Rotate
+- Alt+G - Undo Grab
