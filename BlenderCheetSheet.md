@@ -17,3 +17,13 @@
 - A - Select All (Not Command-A)
 - B - Box Select
 - C - Circle Select
+- Right Click - Cancel Selection Mode
+
+## Transform Object
+
+- Left Click - Confirm
+- Right Click - Cancel
+
+- G - Grab
+- R - Rotate
+- S - Scale
