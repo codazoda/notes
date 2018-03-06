@@ -25,11 +25,17 @@
 - Right Click - Cancel
 
 - G - Grab
-  - X - X Axis
-  - Y - Y Axis
-  - Z - Z Axis
 - R - Rotate
 - S - Scale
 - Alt+S - Undo Scale
 - Alt+R - Undo Rotate
 - Alt+G - Undo Grab
+
+- X - Lock to X Axis
+- Y - Lock to Y Axis
+- Z - Lock to Z Axis
+
+## Add and Remove
+
+- X - Delete
+- Shift-A - Add Object
