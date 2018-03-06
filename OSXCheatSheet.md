@@ -12,7 +12,7 @@
 
 ## Mission Control
 
-`Control + Up` Expose open windows on the current desktop.
+`Control + Up` Expose open windows on the current desktop. `Esc` to exit.
 
 `Control + Down` Expose open windows for the current app on the current desktop.
 
