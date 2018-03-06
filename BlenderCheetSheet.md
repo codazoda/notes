@@ -39,3 +39,11 @@
 
 - X - Delete
 - Shift-A - Add Object
+
+## Layers
+
+- 0-9 (on top of keyboard) - Select a layer
+- Alt+0-9 - Select a layer on the 2nd row
+- Shift+1-9 - Select multiple layers (Shift+1 then Shift+2)
+- M - Move selected item to another layer
+- M+1-9 - Move selected item to a specific layer number
