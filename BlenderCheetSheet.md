@@ -47,3 +47,12 @@
 - Shift+1-9 - Select multiple layers (Shift+1 then Shift+2)
 - M - Move selected item to another layer
 - M+1-9 - Move selected item to a specific layer number
+
+## Timeline
+
+- Alt+A - Play or pause animation
+- Shift+Left - Beginning of timeline
+- Shift+Right - End of timeline
+- Alt+Scroll - Scroll through timeline with mouse wheel
+
+
