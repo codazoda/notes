@@ -1,4 +1,4 @@
-# Imagemagick Tricks
+# ImageMagick Tricks
 
 A short list of Imagemagick command line tricks I find useful at times.
 
