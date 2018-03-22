@@ -9,3 +9,11 @@ _italic_
 
 ~strike~
 ```
+
+*bold*
+
+`code`
+
+_italic_
+
+~strike~
