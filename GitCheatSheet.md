@@ -24,6 +24,10 @@ Undo a git commit that hasn't been pushed yet.
 Files changed between two branches.
 
     git diff --name-status master..some_branch
+    
+Instead of specifying the branch name you can check your current branches differences against master with the following.
+
+    git diff --name-status master..`git rev-parse --abbrev-ref HEAD`
 
 ## Github Pages
 
