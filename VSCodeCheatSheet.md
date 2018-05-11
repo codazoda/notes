@@ -31,3 +31,8 @@ Jump to symbol in whole workspace (with PHP Intelephense extension installed).
 Search for menu options.
 
     command + p then >
+
+Change case of highlighted code.
+
+    command + shift + p
+    trans...
