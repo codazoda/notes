@@ -36,3 +36,11 @@ Change case of highlighted code.
 
     command + shift + p
     trans...
+
+Jump to a code definition.
+
+    command + left-click
+
+Jump back after a code definition jump.
+
+    control + -
