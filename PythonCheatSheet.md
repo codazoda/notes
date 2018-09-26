@@ -21,3 +21,7 @@ You can get user input using the raw_input() function. If you use the input() fu
     first = str(raw_input("Enter your first name:"))
     print "Hello " + first
 
+# Python Commands
+
+Setup a python environment for the current directory.  
+`python3 -m venv env`
