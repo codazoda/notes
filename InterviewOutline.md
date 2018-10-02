@@ -175,6 +175,8 @@
 	- What made you decide to apply here?
 
 	- What do you know about this position?
+	
+	- What experience have you had with scrum?
 
 - Work Preferences
 
@@ -186,13 +188,9 @@
 
 - Work / Life Balance
 
-	- What was the last movie you watched?
-
 	- What books have you read lately?
 
 	- What are you passionate about in your personal life?
-
-	- What are your hobbies, outside of work?
 
 	- What are you passionate about in your professional life?
 
