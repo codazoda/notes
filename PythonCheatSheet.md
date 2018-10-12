@@ -27,7 +27,7 @@ Setup a python environment for the current directory.
 `python3 -m venv env`
 
 Setup a python environment for the current directory using python 3.6.  
-`virtualenv --python=python3.6 env3.6`
+`python3.6 -m venv env`
 
 To activate an environment.  
 `source env/bin/activate`
