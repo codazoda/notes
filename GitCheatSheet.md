@@ -59,3 +59,14 @@ Add the file and commit.
 Putting gh-pages in a folder.
 
 https://gist.github.com/chrisjacob/833223
+
+Rename a tag.
+
+    git tag new old
+    git tag -d old
+    git push origin :refs/tags/old
+    git push --tags
+    
+Create a branch from a tag.
+
+    git checkout -b [branch] [tag]
