@@ -1,5 +1,21 @@
 # Interview Outline
 
+## Database (Hoopes)
+
+- How comfortable are you with SQL?
+- How comfortable are you writing SQL?
+- [Query Quiz][1] (google doc - make sure to explain that question 2 is harder, and they may not be able to get through it)
+- [Security Quiz][2] (google doc)
+- What is a trigger?
+- What is a transaction?
+- How can you tell if a query is using an index? (this will show if they understand indexes, usually I want them to up with either a query plan, or the explain statement)
+- How can a mySQL server be backed up? (only if they are super proficient in databases)
+- What is the difference between binary and text backups? (only if they are super proficient in databases)
+- Has a DBA ever gotten mad at you?  Why? (this is somewhat of a time filler)
+
+[1]:https://drive.google.com/file/d/1C-9v8G3kTZoHw4XxCWs1k3Ktm5pls6zYkILh2RdS7t2ImMAMQBbVzYyJfqwg/view?usp=sharing
+[2]:https://drive.google.com/file/d/15Ivlf1fhQhGOTrsUbOe5RzH2axLSWtYBGKw2YABjH29xkC0YyjDARvLw-mGC/view?usp=sharing
+
 ## Technical
 
 - Openers

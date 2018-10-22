@@ -1,26 +1,36 @@
 # Docker Cheat Sheet
 
-## Create Debian 7 Wheezy Container
+List local images.
 
-`docker create -it --name [name] debian:wheezy`
+`docker images`
 
-## List all Local Containers
-
-`docker ps -a`
-
-## List Running Containers
+List running containers.
 
 `docker ps`
 
-## Start and Attach to a Container
+List all containers.
+
+`docker ps -a`
 
 Start the container if it's not already started.
 
 `docker start [name]`
 
-Then attach to it.
+Stop a running container.
+
+`docker stop [name]`
+
+Attach a TTY to a docker container.
 
 `docker attach [name]`
+
+Create a new docker container and start it.
+
+`docker run [image]`
+
+Delete a docker container.
+
+`docker rm [name]`
 
 ## Mount a Host Directory to a Container Directory
 
