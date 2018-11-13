@@ -194,6 +194,14 @@
 	
 	- What experience have you had with scrum?
 
+- Culture
+
+	- What is one thing you think you might be able to teach us?
+	
+	- What will I learn about you, over time, that will not be obvious to me in this interview?
+	
+	- What are a few things you're good at but not an expert in?
+
 - Work Preferences
 
 	- What is your preferred professional communication style?
