@@ -31,3 +31,6 @@ To activate an environment.
 
 To deactivate an environment.  
 `deactivate`
+
+To create a requirements.txt file for the current environment.
+`pip freeze > requirements.txt`
