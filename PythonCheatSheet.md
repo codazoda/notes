@@ -23,11 +23,8 @@ You can get user input using the raw_input() function. If you use the input() fu
 
 # Python Commands
 
-Setup a python environment for the current directory.  
-`python3 -m venv env`
-
-Setup a python environment for the current directory using python 3.6.  
-`python3.6 -m venv env`
+Setup a python environment for the current directory using python 3.6.
+`python3.6 -m venv ./env`
 
 To activate an environment.  
 `source env/bin/activate`
