@@ -44,3 +44,12 @@ Jump to a code definition.
 Jump back after a code definition jump.
 
     control + -
+
+Search for a specific filename.
+
+    command + p
+
+Search through all files.
+
+    command + shift + f
+    
