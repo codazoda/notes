@@ -32,6 +32,10 @@ Delete a docker container.
 
 `docker rm [name]`
 
+Delete a docker image.
+
+`docker rmi [image]`
+
 ## Mount a Host Directory to a Container Directory
 
 `docker run -v /host/directory:/container/directory`
