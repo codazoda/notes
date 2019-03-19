@@ -52,4 +52,9 @@ Search for a specific filename.
 Search through all files.
 
     command + shift + f
-    
+
+## Extensions
+
+I use the following extensions for my daily work. You can install these using the marketplace.
+
+PHP IntelliSense by Felix Becker
