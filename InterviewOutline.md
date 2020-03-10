@@ -16,6 +16,68 @@
 [1]:https://drive.google.com/file/d/1C-9v8G3kTZoHw4XxCWs1k3Ktm5pls6zYkILh2RdS7t2ImMAMQBbVzYyJfqwg/view?usp=sharing
 [2]:https://drive.google.com/file/d/15Ivlf1fhQhGOTrsUbOe5RzH2axLSWtYBGKw2YABjH29xkC0YyjDARvLw-mGC/view?usp=sharing
 
+## Backend
+
+- Openers
+
+	- Out team...
+
+	- Summarize your work history
+
+	- What are you passionate about?
+
+	- Tell me about your preferred development environment (OS & IDE)
+
+- General questions
+
+	- Use any language you prefer or sudo code
+
+	- Convert a list of comma separated words into an array (one,two,three)
+
+	- How would you strip whitespace from a string?
+
+	- How would you determine if a string contains only numbers?
+
+	- Given an array of 5 words, sort it by longest word
+
+- PHP
+
+	- What is a php session and how do they differ from cookies?
+
+	- How do you sanitize user data for a call to exec?
+
+	- What is the difference between == and ===?
+
+- Random item
+
+    - You’ve got a list of items
+        
+    - Write some code to se­lect one at ran­dom
+        
+    - Any lan­guage, don’t wor­ry about syn­tax
+        
+    - As­sume the built-in ran­dom func­tion is good enough.
+
+- General Questions
+
+	- If you could master one technology this year, what would it be?
+
+	- What made you decide to apply here?
+
+	- What do you like to read?
+
+	- Do you have any hobbies or interests?
+
+- Culture
+
+	- What is one of your biggest frustrations?
+
+	- What is one thing you think you might be able to teach us?
+	
+	- What will I learn about you, over time, that will not be obvious to me in this interview?
+	
+	- What are a few things you're good at but not an expert in?
+
 ## Technical
 
 - Openers
