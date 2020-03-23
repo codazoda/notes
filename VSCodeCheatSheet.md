@@ -1,5 +1,17 @@
 # Visual Studio Code Quick Reference
 
+Jump to a function definition.
+
+    command + click
+
+Split the window and jump to a function definition.
+
+    command + option + click
+
+Go back after jumping to a function.
+
+    control + -
+
 Find any file by name in the currently opened folders or project.
 
     command + p
