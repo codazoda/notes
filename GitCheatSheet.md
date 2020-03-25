@@ -1,5 +1,9 @@
 # Git Quick Reference
 
+Commit ignoring checks.
+
+    git commit -m 'Some commit message' --no-verify
+
 Create a new branch and check it out.
 
     git checkout -b feature_branch_name
