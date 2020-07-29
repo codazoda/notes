@@ -53,6 +53,12 @@ Search through all files.
 
     command + shift + f
 
+Rename a terminal "tab".
+
+    command + shift + p
+    type "terminal rename"
+    enter
+
 ## Extensions
 
 I use the following extensions for my daily work. You can install these using the marketplace.
