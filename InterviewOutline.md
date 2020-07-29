@@ -301,3 +301,7 @@
 - More General Questions
 
 	- What is one of your biggest frustrations?
+
+## Interviewing Me
+
+- How did your company respond to the COVID-19 pandemic?
