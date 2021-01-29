@@ -16,6 +16,66 @@
 [1]:https://drive.google.com/file/d/1C-9v8G3kTZoHw4XxCWs1k3Ktm5pls6zYkILh2RdS7t2ImMAMQBbVzYyJfqwg/view?usp=sharing
 [2]:https://drive.google.com/file/d/15Ivlf1fhQhGOTrsUbOe5RzH2axLSWtYBGKw2YABjH29xkC0YyjDARvLw-mGC/view?usp=sharing
 
+## Manager Phone Screen
+
+- Openers
+
+    - About me
+
+		- People's first impression of me is that I look "stoic" or "mean"
+
+		- My memory is sometimes terrible; asked the same question twice in an interview
+
+    - Our team and project
+
+	- Does that sound interesting?
+
+	- Salary requirements?  My budget
+
+	- What are you working on right now?
+
+	- What are you passionate about?
+
+	- Tell me about your preferred development environment
+
+- Experience
+
+	- I'm going to read some technologies off. Tell me about your experience with the each of them. If you've used it, your experience with it, and your oppinions of it.
+
+    - HTML
+
+	- CSS
+
+    - PHP
+
+	- MySQL - Which engines, such as MyISAM or InnoDB?
+
+	- Javascript
+
+	- React
+
+	- Laravel / Lumen
+
+	- Python
+
+	- Linux
+
+	- Web Servers, such as Apache, and which ones?
+
+	- Git version control
+
+- Programming
+
+    - Can you describe RESTful web services?
+
+	- If you're brand new to a project and you've got a process that's erroring or crashing, what are some things you could do to troubleshoot it?
+
+- Closing
+
+    - Do you have any hobbies or interests?
+
+    - What questions do you have for me?
+
 ## Backend
 
 - Openers
