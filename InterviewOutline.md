@@ -40,29 +40,29 @@
 
 - Experience
 
-	- I'm going to read some technologies off. Tell me about your experience with the each of them. If you've used it, your experience with it, and your oppinions of it.
+	- Let's go through some specific technologies. Let me know if you have experience with it, what your experience is, and your opinions of it.
 
-    - HTML
+    	- HTML
 
-	- CSS
+		- CSS
 
-    - PHP
+    	- PHP
 
-	- MySQL - Which engines, such as MyISAM or InnoDB?
+		- MySQL - Which engines, such as MyISAM or InnoDB?
 
-	- Javascript
+		- Javascript
 
-	- React
+		- React
 
-	- Laravel / Lumen
+		- Laravel / Lumen
 
-	- Python
+		- Python
 
-	- Linux
+		- Linux
 
-	- Web Servers, such as Apache, and which ones?
+		- Web Servers, such as Apache, and which ones?
 
-	- Git version control
+		- Git version control
 
 - Programming
 
