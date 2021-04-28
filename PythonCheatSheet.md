@@ -34,3 +34,6 @@ To deactivate an environment.
 
 To create a requirements.txt file for the current environment.
 `pip freeze > requirements.txt`
+
+To install from the requirements.txt file.
+`pip -r requirements.txt`
