@@ -40,7 +40,8 @@ Here are two PHP code examples.
 - How comfortable are you writing SQL?
 - Write a query that returns the number of comments for a document with a doc_id of 1234.
 - Write a query that returns the top 10 document headlines that have the most comments.
-- [Security Quiz][2] (google doc)
+- What is wrong with the first PHP code sample?
+- What is wrong with the second PHP code sample?
 - What is a trigger?
 - What is a transaction?
 - How can you tell if a query is using an index? (this will show if they understand indexes, usually I want them to up with either a query plan, or the explain statement)
