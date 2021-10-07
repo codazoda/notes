@@ -1,10 +1,45 @@
 # Interview Outline
 
-## Database (Hoopes)
+## Database
+
+Here are the definitions for two tables that we'll use as examples.
+
+```
+  docs
+    doc_id INT(10)
+    headline VARCHAR(200)
+    summary TEXT
+    text MEDIUMINT
+    publication_date DATETIME
+
+  comments
+    comment_id INT(10)
+    doc_id INT(10)
+    name VARCHAR(50)
+    text TEXT
+    submit_date DATETIME
+```
+
+Here are two PHP code examples.
+
+```
+<?php
+    $dbh = new PDO($dsn, $username, $passwd, $options);
+    $dbh->query("select * from table where id = {$_GET['id']}");
+?>
+
+
+<?php
+    foreach($_REQUEST as $k => $v) {
+        include($v);
+    }
+?>
+```
 
 - How comfortable are you with SQL?
 - How comfortable are you writing SQL?
-- [Query Quiz][1] (google doc - make sure to explain that question 2 is harder, and they may not be able to get through it)
+- Write a query that returns the number of comments for a document with a doc_id of 1234.
+- Write a query that returns the top 10 document headlines that have the most comments.
 - [Security Quiz][2] (google doc)
 - What is a trigger?
 - What is a transaction?
