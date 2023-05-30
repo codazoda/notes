@@ -1,5 +1,23 @@
 # Interview Outline
 
+I need to break this into sections based on the types of questions, such as introductions, database, programming, etc. Then I can create lists of sections I might cover with different candidates. The questions I ask will differ based on the type of interview.
+
+## Group
+
+- Why did you decide to apply here?
+- What are you passionate about?
+- What will I learn about you, over time, that will not be obvious to me in this interview?
+- If you could master one thing this year, what would it be?
+- What is something you're good at but not an expert in?
+- What is something you learned about recently?
+- What is one of your biggest frustrations?
+- How do you learn a new skill? What does your process look like?
+- What is something you think you might be able to teach us?
+- What are you working on right now?
+- What do you like to read?
+- Do you have any hobbies or interests?
+- What questions do you have for me/us?
+
 ## Database
 
 Here are the definitions for two tables that we'll use as examples.
